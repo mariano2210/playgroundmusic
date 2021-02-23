@@ -1,0 +1,204 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.inicio{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.inicio li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.inicio li{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.inicio li a:hover{
+    background: #ef8354;
+}
+
+.parrafo{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+.contacto{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.recomendados{
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border: 1px springgreen;
+}
+
+h1{
+    text-align: center !important;
+    padding: 10px !important ;
+    border: 1px springgreen  !important;
+    margin: auto  !important;
+}
+
+h2{
+    text-align: center !important;
+    padding: 10px !important ;
+    border: 1px springgreen  !important;
+    margin: auto  !important;
+}
+
+.table table-striped table-dark{
+    text-align: center;
+}
+
+.videos{
+    background-image: url(img/auris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 640px;
+    background-position: center;
+    width: 100%;
+    margin: 0px !important;
+    min-width: 100% !important;
+}
+
+
+.dropdown{
+    float: left;
+}
+
+.buscar{
+    float: left;
+    font-size: small
+}
+
+.footer{
+    background-color: rgb(red, green, blue);   
+    bottom: 0%;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+
+.flotante {
+    float: left;
+    text-align: left;
+}
+
+.flotantederecho {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.contacto {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.cajas {
+    width: 90%;
+}
+
+.cajaarea {
+    width: 95%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.efecto {
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    background-color: darkolivegreen;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.caja{
+    
+        
+        text-align: center;
+        
+        
+        
+      }
+      .caja1{
+    
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+      }
+      .caja1:hover{
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+      }
+
+.caja2{
+        
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+      }
+.caja2:hover{
+        -webkit-transform: skew(15deg);
+        transform: skew(15deg);
+      }
+
+
+      h1 {
+        color: red;
+    }
+
+    h2 {
+        color: gold;
+    }
+
+
