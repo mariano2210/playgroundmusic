@@ -124,6 +124,17 @@ h2{
     padding-right: 50px;
 }
 
+.h3{
+    font-size: 2.5rem !important;
+    font-family: cursive;
+    color: black;
+    text-align: center !important;
+    padding: 10px !important ;
+    border: 1px springgreen  !important;
+    margin: auto  !important
+}
+
+
 .contacto {
     text-align: center;
     margin-left: 5%;
@@ -194,11 +205,89 @@ h2{
 
 
       h1 {
-        color: red;
-    }
+        color:blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3.0rem !important; 
+        }
 
     h2 {
-        color: gold;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3.0rem !important;
+        color: brown ;
+
+        }
+
+
+.musica{
+    background-image: url(img/notas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 640px;
+    background-position: center;
+    width: 100%;
+    margin: 0px !important;
+    min-width: 100% !important;
+
+    
+    
+}
+
+.parrafo2{
+    font-style: oblique;
+    font-size: 30px;
+    color: black;
+}
+
+.recomienda{
+    background-image: url(img/rosa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 640px;
+    background-position: center;
+    width: 100%;
+    margin: 0px !important;
+    min-width: 100% !important;
+}
+
+.king{
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+.efectodiv{
+    overflow: hidden;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .parrafo2 {
+        font-size: 18px;
+        color: black;
+        text-align: justify;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .king{
+        margin-left: 5%;
+
+    }
+    .king iframe{
+        max-width: 300px;
+        max-height: 400px;
+
     }
 
+    .artistar{
+        width: 40% !important;
 
+    }
+    .txtrepro{
+        font-size: 13px;
+    }
+
+    .formu{
+        width: 100%;
+    }
+  }

@@ -17,13 +17,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+    <script src="menu.js"></script>
     
     <title>videoclips</title>
 
     </head>
 
-<body >
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Playground Scroll</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
             <li class="nav-item active">
-              <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="videoclips.html">Videoclips</a>
@@ -55,23 +55,24 @@
       
       </nav>
       <div class="container videos">
-        <div class="col-md-1 col-xs-2 dropdown">
+
+        <div class="col-md-1 col-xs-2 dropdown artistar">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Artista
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">B.B King</a>
-            <a class="dropdown-item" href="#">Earth, Wind & Fire</a>
-            <a class="dropdown-item" href="#">Natiruts</a>
+            <a onclick="cambioVideo(this.id)" id="bbM" class="dropdown-item" href="#">B.B King</a>
+            <a onclick="cambioVideo(this.id)" id="WindM" class="dropdown-item" href="#">D´Angelo</a>
+            <a onclick="cambioVideo(this.id)" id="natiM" class="dropdown-item" href="#">Los Pericos</a>
           </div>
         </div>
         
-        <div class="col-md-1 col-xs-2 dropdown">
+        <!-- <div class="col-md-1 col-xs-2 dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Año
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">1967</a>
+            <a class="dropdown-item" href="#">1993</a>
             <a class="dropdown-item" href="#">1983</a>
             <a class="dropdown-item" href="#">2012</a>
           
@@ -79,20 +80,42 @@
           </div>
             
         </div>
-        
-        <div  class="col-md-1 col-xs-2  buscar">
+         -->
+        <div  class="col-md-1 col-xs-2  buscar artistar">
           <div class="btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
               <input type="checkbox" checked> Buscar
             </label>
           </div>
         </div>
+
+        <div id="bb" class="col-md-4 king">
+          <div class="container">
+            <iframe width="650" height="400" src="https://www.youtube.com/embed/4fk2prKnYnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div id="wind" style="display: none" class="col-md-4 king">
+          <div class="container">
+            <iframe width="650" height="400" src="https://www.youtube.com/embed/BBeqKg9hVsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+
+        <div id="nati" style="display: none" class="col-md-4 king">
+          <div class="container">
+            <iframe width="650" height="400" src="https://www.youtube.com/embed/Hc8izG5dVuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+        </div>
+          
       </div>
+      
 
-
-        <div class="col-12 footer">
+      
+      
+      <div class="col-12 footer">
           <footer>Todos los derechos reservados</footer>
         </div>
+
         
           
         
